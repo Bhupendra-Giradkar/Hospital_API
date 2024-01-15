@@ -10,14 +10,14 @@ There can be 2 types of Users
 
 - Doctors can log-in.
 - Each time a patient visits, the doctor will follow 2 steps:-<br>
-1. Register the patient in the app (using phone number, if the patient already exists, just return the patient info in the API)
+1. Register the patient in the app (using phone number, if the patient already exists, just return the patient information in the API).
 
-2. After the checkup, create a Report
+2. After the checkup, create a Report.
 
 ### Patient Report will have the following fields
 Created by doctor
 
-1. Status - Can be either of: [ Negative, Travelled-Quarantine, Symptoms-Quarantine, Positive-Admit ]
+1. Status - Can be either of : [ Negative, Travelled-Quarantine, Symptoms-Quarantine, Positive-Admit ]
 
 2. Date.
 
